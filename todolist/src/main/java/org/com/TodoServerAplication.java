@@ -1,7 +1,12 @@
 package org.com;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@SpringBootApplication
 public class TodoServerAplication {
     public static void main(String[] args) {
-        System.out.println("프로젝트 생성 완");
+        SpringApplication.run(TodoServerAplication.class, args);
     }
 }
