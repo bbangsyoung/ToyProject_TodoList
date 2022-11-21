@@ -3,7 +3,6 @@ package org.com.service;
 import lombok.AllArgsConstructor;
 import org.com.model.TodoEntity;
 import org.com.model.TodoRequest;
-import org.com.model.TodoResponse;
 import org.com.repository.TodoRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -61,7 +60,7 @@ public class TodoService {
     }
 
     //전체삭제
-    public void deletedAll(Long id) {
+    public void deleteAll() {
         this.todoRepository.deleteAll();
     }
 
