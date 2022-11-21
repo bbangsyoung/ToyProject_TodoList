@@ -11,6 +11,6 @@
 
 ## 진행사항
 1. 첫번째 todolist : 2022.11.22
-    - controller 콘솔 테스트 완
-    - PostMan으로 Post/Put 테스트 완
+    - Spring 4.5이후 추가 RequestMapping Annotation 사용에 의의를 둠
+    - controller 콘솔 / PostMan Post/Put 테스트 완
     - https://todobackend.com 로 GUI 테스트 진행 → 잘된다😉
